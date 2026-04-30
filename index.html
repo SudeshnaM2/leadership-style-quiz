@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leadership Style Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="quiz-container">
+    <section id="start-screen">
+      <h1>Leadership Style Quiz</h1>
+      <p>
+        This quiz is based on the North, South, East and West Leadership Compass.
+        It is a simple framework used in leadership training to show that people
+        lead in different ways, and that no single style is better than another.
+      </p>
+    
+      <p>
+        The framework was developed as part of group and leadership development
+        work to help people understand how they approach decisions, relationships,
+        ideas and action. It is widely used in workshops to improve teamwork,
+        communication and self awareness.
+      </p>
+    
+      <p>
+        Each direction represents a different way of leading:
+      </p>
+    
+      <ul>
+        <li><strong>North:</strong> action and results</li>
+        <li><strong>South:</strong> people and relationships</li>
+        <li><strong>East:</strong> ideas and possibilities</li>
+        <li><strong>West:</strong> logic and detail</li>
+      </ul>
+    
+      <p>
+        Most people are a mix of styles. This quiz will help you understand your
+        main style and how to work effectively with others.
+      </p>
+      <button id="start-btn">Start quiz</button>
+    </section>
+
+    <section id="quiz-screen" class="hidden">
+      <p id="progress"></p>
+      <h2 id="question-text"></h2>
+      <div id="answer-buttons"></div>
+    </section>
+
+    <section id="result-screen" class="hidden">
+      <h1 id="result-title"></h1>
+      <p id="result-summary"></p>
+
+      <h2>Your strengths</h2>
+      <ul id="strengths-list"></ul>
+
+      <h2>What to watch out for</h2>
+      <ul id="weaknesses-list"></ul>
+
+      <h2>How to perform well in this style</h2>
+      <ul id="advice-list"></ul>
+
+      <h2>How to work with other styles</h2>
+      <div id="working-with-section"></div>
+
+  <button id="restart-btn">Take quiz again</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
