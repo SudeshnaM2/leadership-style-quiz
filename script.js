@@ -148,91 +148,67 @@ const questions = [
   const results = {
     North: {
       title: "North: Action-led leader",
-      summary: "You like to move things forward. You are decisive, confident and comfortable taking charge.",
-      strengths: [
-        "You act quickly.",
-        "You bring energy to difficult situations.",
-        "You are not easily stopped by challenges.",
-        "You help teams focus on results."
-      ],
-      weaknesses: [
-        "You may move too fast for others.",
-        "You may seem impatient with process.",
-        "You may take too much control.",
-        "You may forget to check how people are feeling."
-      ],
-      advice: [
-        "Pause before making big decisions.",
-        "Ask quieter people what they think.",
-        "Delegate instead of doing everything yourself.",
-        "Balance speed with listening."
-      ]
+      summary: "Your strongest leadership style is North. This means you naturally lead through action, pace and clear direction.",
+      profile:
+        "You are the kind of person who helps a group move from talking to doing. When things feel unclear, you are likely to create direction and push for progress. People may experience you as confident, practical and energising. Your leadership style is especially useful in moments of uncertainty, pressure or slow progress.",
+      strengths:
+        "Your main strength is your ability to create momentum. You are comfortable making decisions, taking responsibility and facing difficult situations. You are not easily discouraged by resistance, and you often help others feel braver because you are willing to act first.",
+      weaknesses:
+        "The risk with this style is that your speed can sometimes feel like pressure to others. You may become impatient with long discussions, emotional concerns or detailed process. If overused, this can make people feel unheard, even when your intention is simply to help the team succeed.",
+      advice:
+        "To perform well as a North leader, keep your drive but build in pauses. Ask people what they think before you decide. Be clear about the goal, but leave space for others to shape the route. Your best leadership happens when your courage is matched with listening.",
+      theory:
+        "In leadership theory, this style connects with task-oriented leadership and elements of transformational leadership. You create urgency and direction, which can help teams move towards a shared goal. The development edge is emotional intelligence, because strong action works best when people feel included rather than pushed.",
+      famous:
+        "A useful comparison is Winston Churchill. He is often remembered as a decisive leader who used courage, urgency and direct communication in a time of crisis. This does not mean you have the same personality, but it gives a simple picture of the North style in action."
     },
     South: {
       title: "South: People-led leader",
-      summary: "You lead through relationships. You care about fairness, trust and how people feel.",
-      strengths: [
-        "You build trust.",
-        "You help people feel valued.",
-        "You listen carefully.",
-        "You create a supportive team environment."
-      ],
-      weaknesses: [
-        "You may find it hard to say no.",
-        "You may avoid difficult conversations.",
-        "You may take problems personally.",
-        "You may focus on relationships at the cost of progress."
-      ],
-      advice: [
-        "Set clear boundaries.",
-        "Practise giving direct feedback.",
-        "Remember that disagreement can be healthy.",
-        "Balance kindness with clear action."
-      ]
+      summary: "Your strongest leadership style is South. This means you naturally lead through trust, fairness and relationships.",
+      profile:
+        "You are the kind of person who notices how people are feeling and whether everyone has been included. You understand that work gets done through relationships, not just plans. People may experience you as supportive, thoughtful and emotionally aware. Your leadership style is especially useful when a team needs trust, care or repair.",
+      strengths:
+        "Your main strength is your ability to build connection. You listen well, create psychological safety and help people feel valued. You are likely to notice quieter voices in the room and make decisions with fairness in mind.",
+      weaknesses:
+        "The risk with this style is that you may avoid conflict or delay difficult decisions because you do not want to upset people. You may also take on too much emotional responsibility for the group. If overused, your care for harmony can make it harder to challenge poor behaviour or move quickly.",
+      advice:
+        "To perform well as a South leader, keep your warmth but practise being direct. Saying no, giving clear feedback and naming problems can also be acts of care. Your best leadership happens when kindness is combined with boundaries.",
+      theory:
+        "In leadership theory, this style connects closely with servant leadership and inclusive leadership. You lead by supporting others and creating conditions where people can contribute. The development edge is assertiveness, because supportive leaders also need to make clear decisions.",
+      famous:
+        "A useful comparison is Jacinda Ardern. She is often associated with empathetic and values-led leadership. This does not mean you have the same personality, but it gives a simple picture of the South style in action."
     },
     East: {
       title: "East: Vision-led leader",
-      summary: "You are driven by ideas and possibilities. You enjoy thinking about what could be different or better.",
-      strengths: [
-        "You see the big picture.",
-        "You bring fresh ideas.",
-        "You help teams think about the future.",
-        "You are comfortable with creativity and change."
-      ],
-      weaknesses: [
-        "You may lose focus on details.",
-        "You may start strongly but struggle to finish.",
-        "You may become overwhelmed by too many ideas.",
-        "You may lose track of time."
-      ],
-      advice: [
-        "Turn ideas into clear next steps.",
-        "Use deadlines and check-ins.",
-        "Work with people who are strong on detail.",
-        "Choose which ideas matter most."
-      ]
+      summary: "Your strongest leadership style is East. This means you naturally lead through ideas, imagination and possibility.",
+      profile:
+        "You are the kind of person who helps a group see beyond the immediate task. You enjoy asking what could be different, better or more meaningful. People may experience you as creative, future-focused and inspiring. Your leadership style is especially useful when a team needs innovation, purpose or a fresh way of thinking.",
+      strengths:
+        "Your main strength is your ability to open up possibility. You can connect ideas, see patterns and help people think beyond the obvious answer. You are often good at energising a team at the beginning of a project because you make the work feel meaningful.",
+      weaknesses:
+        "The risk with this style is that you may enjoy the idea stage more than the delivery stage. You may lose focus, underestimate detail or become overwhelmed by too many possibilities. If overused, people may see you as inspiring but hard to pin down.",
+      advice:
+        "To perform well as an East leader, protect your creativity but build structure around it. Turn ideas into clear next steps. Use deadlines, check-ins and practical partners who can help you finish what you start.",
+      theory:
+        "In leadership theory, this style connects strongly with transformational leadership because it focuses on vision, meaning and change. It also connects with adaptive leadership, because you are comfortable exploring new possibilities. The development edge is execution, because vision needs structure to become real.",
+      famous:
+        "A useful comparison is Steve Jobs. He is often remembered as a vision-led leader who focused on possibility, design and future change. This does not mean you have the same personality, but it gives a simple picture of the East style in action."
     },
     West: {
       title: "West: Evidence-led leader",
-      summary: "You like to understand things properly before acting. You value facts, planning and careful decisions.",
-      strengths: [
-        "You are practical and dependable.",
-        "You think carefully about risks.",
-        "You use data and logic well.",
-        "You help teams avoid mistakes."
-      ],
-      weaknesses: [
-        "You may take too long to decide.",
-        "You may get stuck in too much analysis.",
-        "You may seem distant or overly critical.",
-        "You may resist change without enough evidence."
-      ],
-      advice: [
-        "Decide what evidence is enough.",
-        "Share your thinking clearly with others.",
-        "Be open to ideas before testing them.",
-        "Balance careful planning with action."
-      ]
+      summary: "Your strongest leadership style is West. This means you naturally lead through logic, detail and careful judgement.",
+      profile:
+        "You are the kind of person who wants to understand the facts before making a decision. You notice risks, gaps and practical issues that others may miss. People may experience you as dependable, thoughtful and thorough. Your leadership style is especially useful when a team needs quality, evidence or careful planning.",
+      strengths:
+        "Your main strength is your ability to bring clarity and discipline. You are good at testing ideas, asking useful questions and making sure decisions are based on more than enthusiasm. You help teams avoid mistakes and think through consequences.",
+      weaknesses:
+        "The risk with this style is that you may wait too long before acting. You may ask for more information than the situation really needs, or come across as critical when you are trying to be careful. If overused, your caution can slow down momentum.",
+      advice:
+        "To perform well as a West leader, keep your careful thinking but decide what level of evidence is enough. Share your reasoning clearly so others understand that your questions are meant to improve the work, not block it.",
+      theory:
+        "In leadership theory, this style connects with rational decision-making and evidence-informed leadership. It also links to transactional leadership when it focuses on process, standards and reliability. The development edge is agility, because good leaders sometimes need to act before every detail is known.",
+      famous:
+        "A useful comparison is Angela Merkel. She is often associated with careful, evidence-led and pragmatic leadership. This does not mean you have the same personality, but it gives a simple picture of the West style in action."
     }
   };
   
@@ -240,144 +216,110 @@ const questions = [
     "North-South": {
       title: "North-South: Supportive driver",
       summary: "You combine action with care for people. You can move work forward while keeping the team connected.",
-      strengths: [
-        "You can motivate people and still care about their needs.",
-        "You are good at turning relationships into action.",
-        "You can lead with both confidence and warmth."
-      ],
-      weaknesses: [
-        "You may feel pulled between speed and harmony.",
-        "You may take on too much responsibility for both results and people.",
-        "You may become frustrated when people need more time."
-      ],
-      advice: [
-        "Be clear about when the team needs action and when it needs discussion.",
-        "Do not carry everyone else’s feelings alone.",
-        "Use your people skills to build commitment, then use your drive to move forward."
-      ]
+      profile:
+        "You are likely to be someone who can read the room, but still knows when progress is needed. You may care about people deeply, but you also do not want the team to stay stuck. This can make you a strong bridge between task-focused and people-focused colleagues.",
+      strengths:
+        "Your strength is that you can combine warmth with momentum. You can motivate people, support them and still help the work move forward. You are likely to be effective when a group needs both encouragement and direction.",
+      weaknesses:
+        "The risk is that you may feel pulled between keeping people happy and pushing for results. You may take on too much responsibility for both the work and the emotional atmosphere in the team.",
+      advice:
+        "Be clear about when the team needs discussion and when it needs action. Do not carry everyone else’s feelings alone. Use your people skills to build commitment, then use your drive to help the team move forward.",
+      theory:
+        "This mixed style connects with situational leadership because you can shift between support and direction. It also links to emotionally intelligent leadership, because you notice people while still focusing on results.",
+      famous:
+        "A useful comparison is Barack Obama, who is often associated with calm relationship-building and clear direction. This is only an illustrative comparison, not a personality diagnosis."
     },
     "North-East": {
       title: "North-East: Visionary driver",
       summary: "You combine bold ideas with action. You are likely to enjoy change, challenge and new possibilities.",
-      strengths: [
-        "You can create momentum around new ideas.",
-        "You are comfortable with uncertainty.",
-        "You can inspire people to move towards a bigger goal."
-      ],
-      weaknesses: [
-        "You may move too fast before details are clear.",
-        "You may become bored once the idea needs routine follow-through.",
-        "You may overlook people who need more structure."
-      ],
-      advice: [
-        "Before acting, check the risks and practical steps.",
-        "Work closely with detail-focused people.",
-        "Choose a small number of ideas and finish them properly."
-      ]
+      profile:
+        "You are likely to be someone who wants to imagine what could be better and then make it happen. You may get excited by change, challenge and ambitious goals. Others may experience you as energetic, creative and bold.",
+      strengths:
+        "Your strength is your ability to create movement around new ideas. You can inspire people with a vision, but you are also willing to act. You are useful when a team needs energy, change or a fresh direction.",
+      weaknesses:
+        "The risk is that you may move too fast before the details are clear. You may also enjoy the exciting beginning of a project more than the slower delivery stage.",
+      advice:
+        "Before acting, check the risks and practical steps. Work closely with people who are strong on detail. Choose a small number of ideas and finish them properly.",
+      theory:
+        "This mixed style connects strongly with transformational leadership because it combines vision, energy and change. The development edge is execution, because bold ideas need structure to last.",
+      famous:
+        "A useful comparison is Elon Musk, who is often associated with bold ideas, pace and ambitious change. This is only an illustrative comparison, not a personality diagnosis."
     },
     "North-West": {
       title: "North-West: Practical driver",
       summary: "You combine action with logic. You like results, but you also want decisions to make sense.",
-      strengths: [
-        "You can make practical decisions under pressure.",
-        "You balance speed with evidence.",
-        "You are good at spotting what needs to happen next."
-      ],
-      weaknesses: [
-        "You may come across as tough or overly task-focused.",
-        "You may dismiss emotional concerns too quickly.",
-        "You may become impatient when people want open discussion."
-      ],
-      advice: [
-        "Remember that relationships affect delivery.",
-        "Explain your reasoning, not just your decision.",
-        "Use your practical focus to create clear and realistic plans."
-      ]
+      profile:
+        "You are likely to be someone who wants things to be both effective and practical. You do not want endless debate, but you also do not want weak thinking. Others may experience you as focused, realistic and direct.",
+      strengths:
+        "Your strength is your ability to make practical decisions under pressure. You can balance speed with evidence and help teams focus on what is realistic.",
+      weaknesses:
+        "The risk is that you may come across as tough or overly task-focused. You may dismiss emotional concerns too quickly if they seem to slow down the work.",
+      advice:
+        "Remember that relationships affect delivery. Explain your reasoning, not just your decision. Use your practical focus to create plans that are clear and realistic.",
+      theory:
+        "This mixed style connects with task-oriented leadership and evidence-informed leadership. You are likely to value delivery, standards and clear decision-making.",
+      famous:
+        "A useful comparison is Margaret Thatcher, who is often associated with firmness, logic and decisive action. This is only an illustrative comparison, not a personality diagnosis."
     },
     "South-East": {
       title: "South-East: People-centred visionary",
       summary: "You combine care for people with imagination. You are likely to inspire others through values, purpose and possibility.",
-      strengths: [
-        "You help people feel connected to a bigger purpose.",
-        "You are open to ideas and emotions.",
-        "You can create a warm and creative team culture."
-      ],
-      weaknesses: [
-        "You may avoid hard decisions.",
-        "You may struggle with deadlines and detail.",
-        "You may become disappointed if others are too task-focused."
-      ],
-      advice: [
-        "Turn your ideas into clear actions.",
-        "Practise direct conversations when something is not working.",
-        "Work with people who can help you plan and finish."
-      ]
+      profile:
+        "You are likely to be someone who wants work to feel meaningful. You care about people, but you also care about ideas, values and future possibilities. Others may experience you as warm, thoughtful and inspiring.",
+      strengths:
+        "Your strength is your ability to connect people to a bigger purpose. You can create a team culture that feels creative, caring and values-led.",
+      weaknesses:
+        "The risk is that you may avoid hard decisions or struggle with detail. You may also feel disappointed when others focus only on tasks and ignore the human or creative side of the work.",
+      advice:
+        "Turn your ideas into clear actions. Practise direct conversations when something is not working. Work with people who can help you plan and finish.",
+      theory:
+        "This mixed style connects with servant leadership and transformational leadership. You support people while also helping them connect to a bigger vision.",
+      famous:
+        "A useful comparison is Oprah Winfrey, who is often associated with empathy, communication and vision. This is only an illustrative comparison, not a personality diagnosis."
     },
     "South-West": {
       title: "South-West: Thoughtful supporter",
       summary: "You combine care for people with careful thinking. You are steady, fair and likely to make others feel safe.",
-      strengths: [
-        "You are dependable and considerate.",
-        "You make careful decisions that respect people.",
-        "You are good at noticing risks and human impact."
-      ],
-      weaknesses: [
-        "You may take a long time to decide.",
-        "You may avoid conflict.",
-        "You may become too cautious when change is needed."
-      ],
-      advice: [
-        "Set time limits for decisions.",
-        "Say what you think clearly, even if it feels uncomfortable.",
-        "Use your balanced style to help teams make fair and practical choices."
-      ]
+      profile:
+        "You are likely to be someone who wants decisions to be fair, careful and respectful. You notice both the practical risks and the human impact. Others may experience you as dependable, balanced and considerate.",
+      strengths:
+        "Your strength is your ability to create trust through care and reliability. You are likely to make thoughtful decisions that respect both people and evidence.",
+      weaknesses:
+        "The risk is that you may take a long time to decide or avoid conflict. You may become too cautious when change is needed.",
+      advice:
+        "Set time limits for decisions. Say what you think clearly, even when it feels uncomfortable. Use your balanced style to help teams make fair and practical choices.",
+      theory:
+        "This mixed style connects with inclusive leadership and evidence-informed leadership. You are likely to value fairness, psychological safety and careful judgement.",
+      famous:
+        "A useful comparison is Ruth Bader Ginsburg, who is often associated with careful reasoning, fairness and steady commitment. This is only an illustrative comparison, not a personality diagnosis."
     },
     "East-West": {
       title: "East-West: Strategic thinker",
       summary: "You combine big-picture thinking with analysis. You can imagine possibilities and test them carefully.",
-      strengths: [
-        "You can connect vision with evidence.",
-        "You are good at both ideas and thoughtful planning.",
-        "You can help teams think deeply before making decisions."
-      ],
-      weaknesses: [
-        "You may spend too long thinking before acting.",
-        "You may feel torn between creativity and caution.",
-        "You may struggle when fast decisions are needed."
-      ],
-      advice: [
-        "Decide what level of evidence is enough.",
-        "Break big ideas into small actions.",
-        "Share both the vision and the practical plan."
-      ]
+      profile:
+        "You are likely to be someone who enjoys both ideas and depth. You can see future possibilities, but you also want them to make sense. Others may experience you as thoughtful, strategic and reflective.",
+      strengths:
+        "Your strength is your ability to connect vision with evidence. You can help a team think deeply, challenge assumptions and build stronger ideas.",
+      weaknesses:
+        "The risk is that you may spend too long thinking before acting. You may feel torn between creativity and caution, especially when fast decisions are needed.",
+      advice:
+        "Decide what level of evidence is enough. Break big ideas into small actions. Share both the vision and the practical plan.",
+      theory:
+        "This mixed style connects with strategic leadership and adaptive leadership. You are able to think about future possibilities while still testing ideas carefully.",
+      famous:
+        "A useful comparison is Bill Gates, who is often associated with long-term thinking, analysis and strategic vision. This is only an illustrative comparison, not a personality diagnosis."
     }
   };
   
   const workingWithAdvice = {
-    North: [
-      "Be clear, direct and brief.",
-      "Focus on the goal, challenge and result.",
-      "Give them ownership and room to act.",
-      "Do not over-explain before getting to the point."
-    ],
-    South: [
-      "Build trust before pushing the task.",
-      "Show that you care about fairness and people.",
-      "Listen properly and do not rush their feelings.",
-      "Give reassurance and appreciation."
-    ],
-    East: [
-      "Show interest in their ideas.",
-      "Give them space to explore possibilities.",
-      "Avoid shutting ideas down too early.",
-      "Help them turn ideas into next steps."
-    ],
-    West: [
-      "Bring facts, evidence and a clear plan.",
-      "Give them time to think.",
-      "Do not rely only on emotion or urgency.",
-      "Respect their need to check risks and details."
-    ]
+    North:
+      "When working with a North style, be clear, direct and focused. They usually respond well to purpose, challenge and action. Try not to over-explain before getting to the point. Show them what decision is needed, what result matters and where they have room to take ownership.",
+    South:
+      "When working with a South style, build trust before pushing the task. They usually respond well to warmth, fairness and appreciation. Listen properly, show that you care about people, and avoid making them feel steamrolled. They often do their best work when relationships feel safe.",
+    East:
+      "When working with an East style, show interest in their ideas and give them space to explore possibilities. Try not to shut ideas down too early. They often bring energy at the start of a project, but may need help turning ideas into clear next steps.",
+    West:
+      "When working with a West style, bring facts, evidence and a clear plan. Give them time to think and do not rely only on emotion or urgency. They often help the team avoid mistakes, so treat their questions as useful checks rather than negativity."
   };
   
   let currentQuestionIndex = 0;
@@ -406,6 +348,16 @@ const questions = [
   function startQuiz() {
     startScreen.classList.add("hidden");
     quizScreen.classList.remove("hidden");
+    resultScreen.classList.add("hidden");
+  
+    currentQuestionIndex = 0;
+    scores = {
+      North: 0,
+      South: 0,
+      East: 0,
+      West: 0
+    };
+  
     showQuestion();
   }
   
@@ -451,22 +403,34 @@ const questions = [
     const secondScore = sortedScores[1][1];
   
     let result;
+    let resultStyleForAdvice = firstStyle;
   
     if (firstScore - secondScore <= 2) {
-      const mixedKey = [firstStyle, secondStyle].sort().join("-");
-      result = mixedResults[mixedKey];
-    } else {
+        const styleOrder = ["North", "South", "East", "West"];
+        const mixedKey = [firstStyle, secondStyle]
+         .sort((a, b) => styleOrder.indexOf(a) - styleOrder.indexOf(b))
+         .join("-");
+
+     result = mixedResults[mixedKey];
+
+     if (!result) {
       result = results[firstStyle];
-    }
+     }
+   } else {
+     result = results[firstStyle];
+}
   
     document.getElementById("result-title").textContent = result.title;
     document.getElementById("result-summary").textContent = result.summary;
+    document.getElementById("profile-text").textContent = result.profile;
+    document.getElementById("strengths-text").textContent = result.strengths;
+    document.getElementById("weaknesses-text").textContent = result.weaknesses;
+    document.getElementById("advice-text").textContent = result.advice;
+    document.getElementById("theory-text").textContent = result.theory;
+    document.getElementById("famous-text").textContent = result.famous;
   
-    fillList("strengths-list", result.strengths);
-    fillList("weaknesses-list", result.weaknesses);
-    fillList("advice-list", result.advice);
-  
-    showWorkingWithAdvice(firstStyle);
+    drawCompassChart(scores);
+    showWorkingWithAdvice(resultStyleForAdvice);
   }
   
   function showWorkingWithAdvice(primaryStyle) {
@@ -474,6 +438,9 @@ const questions = [
     section.innerHTML = "";
   
     Object.keys(workingWithAdvice).forEach(style => {
+      const card = document.createElement("div");
+      card.classList.add("working-style-card");
+  
       const heading = document.createElement("h3");
   
       if (style === primaryStyle) {
@@ -482,28 +449,85 @@ const questions = [
         heading.textContent = `Working with ${style}`;
       }
   
-      const list = document.createElement("ul");
+      const paragraph = document.createElement("p");
+      paragraph.textContent = workingWithAdvice[style];
   
-      workingWithAdvice[style].forEach(item => {
-        const li = document.createElement("li");
-        li.textContent = item;
-        list.appendChild(li);
-      });
-  
-      section.appendChild(heading);
-      section.appendChild(list);
+      card.appendChild(heading);
+      card.appendChild(paragraph);
+      section.appendChild(card);
     });
   }
   
-  function fillList(elementId, items) {
-    const list = document.getElementById(elementId);
-    list.innerHTML = "";
+  function drawCompassChart(scores) {
+    const canvas = document.getElementById("compass-chart");
+    const ctx = canvas.getContext("2d");
   
-    items.forEach(item => {
-      const li = document.createElement("li");
-      li.textContent = item;
-      list.appendChild(li);
+    const size = 420;
+    canvas.width = size;
+    canvas.height = size;
+  
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+  
+    const total = Object.values(scores).reduce((sum, value) => sum + value, 0);
+  
+    const centerX = size / 2;
+    const centerY = size / 2;
+    const maxLength = 75;
+  
+    const styleColors = {
+      North: "#ef4444",
+      South: "#22c55e",
+      East: "#f59e0b",
+      West: "#3b82f6"
+    };
+  
+    const positions = {
+      North: { labelX: centerX - 40, labelY: centerY - maxLength - 45 },
+      South: { labelX: centerX - 40, labelY: centerY + maxLength + 55 },
+      East: { labelX: centerX + maxLength + 35, labelY: centerY + 6 },
+      West: { labelX: centerX - maxLength - 105, labelY: centerY + 6 }
+    };
+  
+    ctx.strokeStyle = "#d1d5db";
+    ctx.lineWidth = 2;
+  
+    ctx.beginPath();
+    ctx.moveTo(centerX, centerY - maxLength);
+    ctx.lineTo(centerX, centerY + maxLength);
+    ctx.moveTo(centerX - maxLength, centerY);
+    ctx.lineTo(centerX + maxLength, centerY);
+    ctx.stroke();
+  
+    Object.keys(scores).forEach(style => {
+      const percentage = Math.round((scores[style] / total) * 100);
+      const length = (percentage / 100) * maxLength;
+  
+      let endX = centerX;
+      let endY = centerY;
+  
+      if (style === "North") endY = centerY - length;
+      if (style === "South") endY = centerY + length;
+      if (style === "East") endX = centerX + length;
+      if (style === "West") endX = centerX - length;
+  
+      ctx.strokeStyle = styleColors[style];
+      ctx.lineWidth = 9;
+      ctx.lineCap = "round";
+  
+      ctx.beginPath();
+      ctx.moveTo(centerX, centerY);
+      ctx.lineTo(endX, endY);
+      ctx.stroke();
+  
+      ctx.fillStyle = "#111827";
+      ctx.font = "15px Arial";
+      ctx.fillText(`${style}: ${percentage}%`, positions[style].labelX, positions[style].labelY);
     });
+  
+    ctx.beginPath();
+    ctx.arc(centerX, centerY, 7, 0, 2 * Math.PI);
+    ctx.fillStyle = "#111827";
+    ctx.fill();
   }
   
   function restartQuiz() {
