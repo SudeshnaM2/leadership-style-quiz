@@ -41,7 +41,7 @@ The quiz then:
 
 ## Live version
 
-Add your GitHub Pages link here once deployed.
+https://sudeshnam2.github.io/leadership-style-quiz/
 
 ## Future improvements
 
